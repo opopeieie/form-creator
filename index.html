@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html>
+<head>
+    <link rel="stylesheet" href="./node_modules/jqwidgets-framework/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxdatatable.js"></script>
+    <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxtreegrid.js"></script>
+
+    <style>
+        #contenttreeGrid>span{
+            display: none!important;
+        }
+    </style>
+</head>
+<body class="default">
+<h1 style="text-align: center">你老哥的dataTable</h1>
+<div style="margin: 0 0 0 2% " id="treeGrid">
+</div>
+<button class="btn-danger">
+萨达
+</button>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // prepare the data
+        var source =
+        {
+            dataType: "csv",
+            dataFields: [
+                { name: 'EmployeeKey', type: 'number' },
+                { name: 'ParentEmployeeKey', type: 'number' },
+                { name: 'FirstName', type: 'string' },
+                { name: 'LastName', type: 'string' },
+                { name: 'Title', type: 'string' },
+                { name: 'HireDate', type: 'date' },
+                { name: 'BirthDate', type: 'date' },
+                { name: 'Phone', type: 'string' },
+                { name: 'Gender', type: 'string' },
+                { name: 'DepartmentName', type: 'string' }
+            ],
+            hierarchy:
+            {
+                keyDataField: { name: 'EmployeeKey' },
+                parentDataField: { name: 'ParentEmployeeKey' }
+            },
+            id: 'EmployeeKey',
+            url: './node_modules/jqwidgets-framework/demos/sampledata/employeesadv.csv'
+        };
+        var dataAdapter = new $.jqx.dataAdapter(source);
+        // create Tree Grid
+        $("#treeGrid").jqxTreeGrid(
+                {
+                    width: 1300,
+                    source: dataAdapter,
+                    pageable: false,
+                    columnsResize: true,
+                    ready: function()
+                    {
+                        // expand row with 'EmployeeKey = 32'
+                        $("#treeGrid").jqxTreeGrid('expandRow', 32);
+                    },
+                    columns: [
+                        { text: 'FirstName', dataField: 'FirstName', minWidth: 100, width: 200 },
+                        { text: 'LastName',  dataField: 'LastName', width: 200 },
+                        { text: 'Department Name', dataField: 'DepartmentName', width: 200 },
+                        { text: 'Title', dataField: 'Title', width: 300 },
+                        { text: 'Birth Date', dataField: 'BirthDate', cellsFormat: 'd', width: 133 },
+                        { text: 'Hire Date', dataField: 'HireDate', cellsFormat: 'd', width: 133 },
+                        { text: 'Phone', dataField: 'Phone', cellsFormat: 'd', width: 134 }
+                    ]
+                });
+    });
+
+</script>
+</body>
+</html>
