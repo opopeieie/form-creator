@@ -12,6 +12,7 @@
     "bootstrap": "^3.3.7",
     "cheerio": "^1.0.0-rc.2",
     "foundation": "^4.2.1-1",
+    "htmlparser2": "^3.9.2",
     "install": "^0.10.1",
     "jquery": "1.11.1",
     "jqwidgets-framework": "^4.6.4",
