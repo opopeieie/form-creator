@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="./node_modules/jqwidgets-framework/jqwidgets/styles/jqx.base.css" type="text/css" />
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./app.css" type="text/css" />
     <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxcore.js"></script>
     <script type="text/javascript" src="./node_modules/jqwidgets-framework/jqwidgets/jqxdata.js"></script>
@@ -17,64 +18,108 @@
         }
     </style>
 </head>
-<body class="default">
-<h1 style="text-align: center">你老哥的dataTable</h1>
-<div style="margin: 0 0 0 2% " id="treeGrid">
+<body>
+<div class="wrapper">
+    <div class="col-lg-12">
+        <h1>你老哥的dataTable</h1>
+    </div>
+    <div class="col-xs-12">
+        <div id="treeGrid">
+        </div>
+        <div id="jqxTree"></div>
+    </div>
+    <div class="col-lg-12" style="margin-top: 2%;">
+        <div class="col-lg-4">
+            <div class="text-center">
+                <button id="addBtn"  class="btn btn-default text-align-center">
+                    添加
+                </button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="text-center">
+                <button id="modifyBtn" class="btn btn-default text-align-center">
+                    修改
+                </button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="text-center">
+                <button id="delBtn" class="btn btn-default text-align-center">
+                    删除
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
-<button class="btn-danger">
-萨达
-</button>
-<script type="text/javascript">
-    $(document).ready(function () {
-        // prepare the data
-        var source =
-        {
-            dataType: "csv",
-            dataFields: [
-                { name: 'EmployeeKey', type: 'number' },
-                { name: 'ParentEmployeeKey', type: 'number' },
-                { name: 'FirstName', type: 'string' },
-                { name: 'LastName', type: 'string' },
-                { name: 'Title', type: 'string' },
-                { name: 'HireDate', type: 'date' },
-                { name: 'BirthDate', type: 'date' },
-                { name: 'Phone', type: 'string' },
-                { name: 'Gender', type: 'string' },
-                { name: 'DepartmentName', type: 'string' }
-            ],
-            hierarchy:
-            {
-                keyDataField: { name: 'EmployeeKey' },
-                parentDataField: { name: 'ParentEmployeeKey' }
-            },
-            id: 'EmployeeKey',
-            url: './node_modules/jqwidgets-framework/demos/sampledata/employeesadv.csv'
-        };
-        var dataAdapter = new $.jqx.dataAdapter(source);
-        // create Tree Grid
-        $("#treeGrid").jqxTreeGrid(
-                {
-                    width: 1300,
-                    source: dataAdapter,
-                    pageable: false,
-                    columnsResize: true,
-                    ready: function()
-                    {
-                        // expand row with 'EmployeeKey = 32'
-                        $("#treeGrid").jqxTreeGrid('expandRow', 32);
-                    },
-                    columns: [
-                        { text: 'FirstName', dataField: 'FirstName', minWidth: 100, width: 200 },
-                        { text: 'LastName',  dataField: 'LastName', width: 200 },
-                        { text: 'Department Name', dataField: 'DepartmentName', width: 200 },
-                        { text: 'Title', dataField: 'Title', width: 300 },
-                        { text: 'Birth Date', dataField: 'BirthDate', cellsFormat: 'd', width: 133 },
-                        { text: 'Hire Date', dataField: 'HireDate', cellsFormat: 'd', width: 133 },
-                        { text: 'Phone', dataField: 'Phone', cellsFormat: 'd', width: 134 }
-                    ]
-                });
-    });
 
-</script>
+
+
+
+
+
+
+
+<!-- 模态窗口template -->
+<div class="modal fade" id="addModal" tabindex="-1" data-keyboard="true" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="addModalLabel">
+                    add something
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="modalForm">
+                    <div class="form-group">
+                        <label for="tagName" class="col-sm-2 control-label">tagName:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="tagName" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="tagName" class="col-sm-2 control-label">id:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="id" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="tagName" class="col-sm-2 control-label">class:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="class" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="tagName" class="col-sm-2 control-label">name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" >
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary closeBtn" data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" data-modal="addModal" id="modifyCommit" style="display: none;">
+                    修改
+                </button>
+                <button type="button" class="btn btn-primary" data-modal="addModal" id="addCommit" style="display: none;">
+                    确定
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+
+
+
+
+<script src="./form.js" type="text/javascript"></script>
+<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
