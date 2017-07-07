@@ -1,0 +1,128 @@
+{
+  "form":{
+    "sort":1,
+    "tagName":"div",
+    "class":"mas",
+    "children":[
+      {
+        "tagName":"form",
+        "children":[
+          {
+            "tagName":"div",
+            "class":"error"
+          },
+          {
+            "tagName":"div",
+            "class":"form-container",
+            "id":"sort1Container"
+          }
+        ]
+      }
+    ]
+
+  },
+  "headline":{
+    "sort":2,
+    "tagName":"div",
+    "class":"clearfix details-parts perInfo",
+    "children":[
+      {
+        "tagName":"h2",
+        "class":"form-header",
+        "children":[
+          {
+            "tagName":"label",
+            "message":true
+          }
+        ]
+      }
+    ]
+  },
+  "outTag":{
+    "sort":3,
+    "tagName":"div",
+    "class":"form-inline form-group col-xs-12"
+  },
+  "general": {
+    "sort":4,
+    "tagName":"label",
+    "class":"form-group col-xs-12 col-sm-6",
+    "children":[
+      {
+        "tagName":"label",
+        "className":"label col-xs-4",
+        "message":true
+      },
+      {
+        "className":"form-text vali col-xs-8",
+        "autocomplete":"off",
+        "placeholder":"请输入"
+      }
+    ]
+  },
+  "address": {
+    "sort":3,
+    "tagName":"div",
+    "class":"form-inline form-group col-xs-12",
+    "children":[
+      {
+        "tagName":"label",
+        "class":"label col-xs-12",
+        "message":true
+      },
+      {
+        "tagName":"label",
+        "class":"form-group col-xs-12 col-sm-4 col-lg-3",
+        "children":[
+          {
+            "class":"form-text  col-xs-10",
+            "autocomplete":"off",
+            "placeholder":"请输入"
+          }
+        ]
+      },
+      {
+        "tagName":"label",
+        "class":"form-group col-xs-12 col-sm-4 col-lg-3",
+        "children":[
+          {
+            "class":"form-text  col-xs-10",
+            "autocomplete":"off",
+            "placeholder":"请输入"
+          }
+        ]
+      },
+      {
+        "tagName":"label",
+        "class":"form-group col-xs-12 col-sm-4 col-lg-3",
+        "children":[
+          {
+            "class":"form-text  col-xs-10",
+            "autocomplete":"off",
+            "placeholder":"请输入"
+          }
+        ]
+      },
+      {
+        "tagName":"label",
+        "class":"form-group col-xs-12 col-sm-12 col-lg-3",
+        "children":[
+          {
+            "class":"form-text col-xs-12 col-lg-12",
+            "autocomplete":"off",
+            "placeholder":"请输入"
+          }
+        ]
+      }
+    ]
+  },
+  "select":{
+    "sort":3
+  },
+  "phoneNumber": {
+    "sort":3
+  },
+  "generalLg": {
+    "sort":3
+  }
+}

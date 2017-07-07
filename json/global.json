@@ -13,98 +13,24 @@
       "width": 200
     },
     {
-      "text": "height",
-      "dataField": "height",
+      "text": "text",
+      "dataField": "text",
+      "minWidth": 100,
+      "width": 200
+    },
+    {
+      "text": "charset",
+      "dataField": "charset",
       "width": 100
     },
     {
-      "text": "width",
-      "dataField": "width",
+      "text": "coords",
+      "dataField": "coords",
       "width": 100
     },
     {
-      "text": "archive",
-      "dataField": "archive",
-      "width": 100
-    },
-    {
-      "text": "classid",
-      "dataField": "classid",
-      "width": 100
-    },
-    {
-      "text": "codebase",
-      "dataField": "codebase",
-      "width": 100
-    },
-    {
-      "text": "codetype",
-      "dataField": "codetype",
-      "width": 100
-    },
-    {
-      "text": "data",
-      "dataField": "data",
-      "width": 100
-    },
-    {
-      "text": "declare",
-      "dataField": "declare",
-      "width": 100
-    },
-    {
-      "text": "form",
-      "dataField": "form",
-      "width": 100
-    },
-    {
-      "text": "autofocus",
-      "dataField": "autofocus",
-      "width": 100
-    },
-    {
-      "text": "cols",
-      "dataField": "cols",
-      "width": 100
-    },
-    {
-      "text": "disabled",
-      "dataField": "disabled",
-      "width": 100
-    },
-    {
-      "text": "maxlength",
-      "dataField": "maxlength",
-      "width": 100
-    },
-    {
-      "text": "name",
-      "dataField": "name",
-      "width": 100
-    },
-    {
-      "text": "placeholder",
-      "dataField": "placeholder",
-      "width": 100
-    },
-    {
-      "text": "readonly",
-      "dataField": "readonly",
-      "width": 100
-    },
-    {
-      "text": "required",
-      "dataField": "required",
-      "width": 100
-    },
-    {
-      "text": "rows",
-      "dataField": "rows",
-      "width": 100
-    },
-    {
-      "text": "wrap",
-      "dataField": "wrap",
+      "text": "download",
+      "dataField": "download",
       "width": 100
     },
     {
@@ -113,93 +39,43 @@
       "width": 100
     },
     {
+      "text": "hreflang",
+      "dataField": "hreflang",
+      "width": 100
+    },
+    {
+      "text": "media",
+      "dataField": "media",
+      "width": 100
+    },
+    {
+      "text": "name",
+      "dataField": "name",
+      "width": 100
+    },
+    {
+      "text": "rel",
+      "dataField": "rel",
+      "width": 100
+    },
+    {
+      "text": "rev",
+      "dataField": "rev",
+      "width": 100
+    },
+    {
+      "text": "shape",
+      "dataField": "shape",
+      "width": 100
+    },
+    {
       "text": "target",
       "dataField": "target",
       "width": 100
     },
     {
-      "text": "autoplay",
-      "dataField": "autoplay",
-      "width": 100
-    },
-    {
-      "text": "controls",
-      "dataField": "controls",
-      "width": 100
-    },
-    {
-      "text": "loop",
-      "dataField": "loop",
-      "width": 100
-    },
-    {
-      "text": "muted",
-      "dataField": "muted",
-      "width": 100
-    },
-    {
-      "text": "preload",
-      "dataField": "preload",
-      "width": 100
-    },
-    {
-      "text": "src",
-      "dataField": "src",
-      "width": 100
-    },
-    {
-      "text": "accept-charset",
-      "dataField": "accept-charset",
-      "width": 100
-    },
-    {
-      "text": "action",
-      "dataField": "action",
-      "width": 100
-    },
-    {
-      "text": "autocomplete",
-      "dataField": "autocomplete",
-      "width": 100
-    },
-    {
-      "text": "enctype",
-      "dataField": "enctype",
-      "width": 100
-    },
-    {
-      "text": "method",
-      "dataField": "method",
-      "width": 100
-    },
-    {
-      "text": "novalidate",
-      "dataField": "novalidate",
-      "width": 100
-    },
-    {
-      "text": "align",
-      "dataField": "align",
-      "width": 100
-    },
-    {
-      "text": "char",
-      "dataField": "char",
-      "width": 100
-    },
-    {
-      "text": "charoff",
-      "dataField": "charoff",
-      "width": 100
-    },
-    {
-      "text": "span",
-      "dataField": "span",
-      "width": 100
-    },
-    {
-      "text": "valign",
-      "dataField": "valign",
+      "text": "type",
+      "dataField": "type",
       "width": 100
     },
     {
@@ -218,133 +94,23 @@
       "width": 100
     },
     {
-      "text": "alt",
-      "dataField": "alt",
+      "text": "label",
+      "dataField": "label",
       "width": 100
     },
     {
-      "text": "coords",
-      "dataField": "coords",
+      "text": "for",
+      "dataField": "for",
       "width": 100
     },
     {
-      "text": "nohref",
-      "dataField": "nohref",
+      "text": "form",
+      "dataField": "form",
       "width": 100
     },
     {
-      "text": "shape",
-      "dataField": "shape",
-      "width": 100
-    },
-    {
-      "text": "cite",
-      "dataField": "cite",
-      "width": 100
-    },
-    {
-      "text": "charset",
-      "dataField": "charset",
-      "width": 100
-    },
-    {
-      "text": "download",
-      "dataField": "download",
-      "width": 100
-    },
-    {
-      "text": "hreflang",
-      "dataField": "hreflang",
-      "width": 100
-    },
-    {
-      "text": "media",
-      "dataField": "media",
-      "width": 100
-    },
-    {
-      "text": "rel",
-      "dataField": "rel",
-      "width": 100
-    },
-    {
-      "text": "rev",
-      "dataField": "rev",
-      "width": 100
-    },
-    {
-      "text": "type",
-      "dataField": "type",
-      "width": 100
-    },
-    {
-      "text": "alink",
-      "dataField": "alink",
-      "width": 100
-    },
-    {
-      "text": "background",
-      "dataField": "background",
-      "width": 100
-    },
-    {
-      "text": "bgcolor",
-      "dataField": "bgcolor",
-      "width": 100
-    },
-    {
-      "text": "link",
-      "dataField": "link",
-      "width": 100
-    },
-    {
-      "text": "text",
-      "dataField": "text",
-      "width": 100
-    },
-    {
-      "text": "vlink",
-      "dataField": "vlink",
-      "width": 100
-    },
-    {
-      "text": "datetime",
-      "dataField": "datetime",
-      "width": 100
-    },
-    {
-      "text": "open",
-      "dataField": "open",
-      "width": 100
-    },
-    {
-      "text": "xmlns",
-      "dataField": "xmlns",
-      "width": 100
-    },
-    {
-      "text": "formaction",
-      "dataField": "formaction",
-      "width": 100
-    },
-    {
-      "text": "formenctype",
-      "dataField": "formenctype",
-      "width": 100
-    },
-    {
-      "text": "formmethod",
-      "dataField": "formmethod",
-      "width": 100
-    },
-    {
-      "text": "formnovalidate",
-      "dataField": "formnovalidate",
-      "width": 100
-    },
-    {
-      "text": "formtarget",
-      "dataField": "formtarget",
+      "text": "max",
+      "dataField": "max",
       "width": 100
     },
     {
@@ -353,8 +119,43 @@
       "width": 100
     },
     {
+      "text": "high",
+      "dataField": "high",
+      "width": 100
+    },
+    {
+      "text": "low",
+      "dataField": "low",
+      "width": 100
+    },
+    {
+      "text": "min",
+      "dataField": "min",
+      "width": 100
+    },
+    {
+      "text": "optimum",
+      "dataField": "optimum",
+      "width": 100
+    },
+    {
+      "text": "align",
+      "dataField": "align",
+      "width": 100
+    },
+    {
+      "text": "disabled",
+      "dataField": "disabled",
+      "width": 100
+    },
+    {
       "text": "frameborder",
       "dataField": "frameborder",
+      "width": 100
+    },
+    {
+      "text": "height",
+      "dataField": "height",
       "width": 100
     },
     {
@@ -388,8 +189,38 @@
       "width": 100
     },
     {
+      "text": "src",
+      "dataField": "src",
+      "width": 100
+    },
+    {
       "text": "srcdoc",
       "dataField": "srcdoc",
+      "width": 100
+    },
+    {
+      "text": "width",
+      "dataField": "width",
+      "width": 100
+    },
+    {
+      "text": "cite",
+      "dataField": "cite",
+      "width": 100
+    },
+    {
+      "text": "alt",
+      "dataField": "alt",
+      "width": 100
+    },
+    {
+      "text": "nohref",
+      "dataField": "nohref",
+      "width": 100
+    },
+    {
+      "text": "sizes",
+      "dataField": "sizes",
       "width": 100
     },
     {
@@ -398,13 +229,213 @@
       "width": 100
     },
     {
-      "text": "label",
-      "dataField": "label",
+      "text": "open",
+      "dataField": "open",
+      "width": 100
+    },
+    {
+      "text": "autoplay",
+      "dataField": "autoplay",
+      "width": 100
+    },
+    {
+      "text": "controls",
+      "dataField": "controls",
+      "width": 100
+    },
+    {
+      "text": "loop",
+      "dataField": "loop",
+      "width": 100
+    },
+    {
+      "text": "muted",
+      "dataField": "muted",
+      "width": 100
+    },
+    {
+      "text": "preload",
+      "dataField": "preload",
+      "width": 100
+    },
+    {
+      "text": "accept-charset",
+      "dataField": "accept-charset",
+      "width": 100
+    },
+    {
+      "text": "action",
+      "dataField": "action",
+      "width": 100
+    },
+    {
+      "text": "autocomplete",
+      "dataField": "autocomplete",
+      "width": 100
+    },
+    {
+      "text": "enctype",
+      "dataField": "enctype",
+      "width": 100
+    },
+    {
+      "text": "method",
+      "dataField": "method",
+      "width": 100
+    },
+    {
+      "text": "novalidate",
+      "dataField": "novalidate",
+      "width": 100
+    },
+    {
+      "text": "compact",
+      "dataField": "compact",
+      "width": 100
+    },
+    {
+      "text": "accept",
+      "dataField": "accept",
+      "width": 100
+    },
+    {
+      "text": "autofocus",
+      "dataField": "autofocus",
+      "width": 100
+    },
+    {
+      "text": "checked",
+      "dataField": "checked",
+      "width": 100
+    },
+    {
+      "text": "formaction",
+      "dataField": "formaction",
+      "width": 100
+    },
+    {
+      "text": "formenctype",
+      "dataField": "formenctype",
+      "width": 100
+    },
+    {
+      "text": "formmethod",
+      "dataField": "formmethod",
+      "width": 100
+    },
+    {
+      "text": "formnovalidate",
+      "dataField": "formnovalidate",
+      "width": 100
+    },
+    {
+      "text": "formtarget",
+      "dataField": "formtarget",
+      "width": 100
+    },
+    {
+      "text": "list",
+      "dataField": "list",
+      "width": 100
+    },
+    {
+      "text": "maxlength",
+      "dataField": "maxlength",
+      "width": 100
+    },
+    {
+      "text": "multiple",
+      "dataField": "multiple",
+      "width": 100
+    },
+    {
+      "text": "pattern",
+      "dataField": "pattern",
+      "width": 100
+    },
+    {
+      "text": "placeholder",
+      "dataField": "placeholder",
+      "width": 100
+    },
+    {
+      "text": "readonly",
+      "dataField": "readonly",
+      "width": 100
+    },
+    {
+      "text": "required",
+      "dataField": "required",
+      "width": 100
+    },
+    {
+      "text": "step",
+      "dataField": "step",
+      "width": 100
+    },
+    {
+      "text": "bgcolor",
+      "dataField": "bgcolor",
+      "width": 100
+    },
+    {
+      "text": "char",
+      "dataField": "char",
+      "width": 100
+    },
+    {
+      "text": "charoff",
+      "dataField": "charoff",
+      "width": 100
+    },
+    {
+      "text": "valign",
+      "dataField": "valign",
+      "width": 100
+    },
+    {
+      "text": "keytype",
+      "dataField": "keytype",
+      "width": 100
+    },
+    {
+      "text": "span",
+      "dataField": "span",
+      "width": 100
+    },
+    {
+      "text": "poster",
+      "dataField": "poster",
       "width": 100
     },
     {
       "text": "border",
       "dataField": "border",
+      "width": 100
+    },
+    {
+      "text": "cellpadding",
+      "dataField": "cellpadding",
+      "width": 100
+    },
+    {
+      "text": "cellspacing",
+      "dataField": "cellspacing",
+      "width": 100
+    },
+    {
+      "text": "frame",
+      "dataField": "frame",
+      "width": 100
+    },
+    {
+      "text": "rules",
+      "dataField": "rules",
+      "width": 100
+    },
+    {
+      "text": "summary",
+      "dataField": "summary",
       "width": 100
     },
     {
@@ -428,13 +459,38 @@
       "width": 100
     },
     {
-      "text": "noshade",
-      "dataField": "noshade",
+      "text": "alink",
+      "dataField": "alink",
       "width": 100
     },
     {
-      "text": "checked",
-      "dataField": "checked",
+      "text": "background",
+      "dataField": "background",
+      "width": 100
+    },
+    {
+      "text": "link",
+      "dataField": "link",
+      "width": 100
+    },
+    {
+      "text": "text",
+      "dataField": "text",
+      "width": 100
+    },
+    {
+      "text": "vlink",
+      "dataField": "vlink",
+      "width": 100
+    },
+    {
+      "text": "datetime",
+      "dataField": "datetime",
+      "width": 100
+    },
+    {
+      "text": "pubdate",
+      "dataField": "pubdate",
       "width": 100
     },
     {
@@ -445,86 +501,6 @@
     {
       "text": "radiogroup",
       "dataField": "radiogroup",
-      "width": 100
-    },
-    {
-      "text": "compact",
-      "dataField": "compact",
-      "width": 100
-    },
-    {
-      "text": "for",
-      "dataField": "for",
-      "width": 100
-    },
-    {
-      "text": "keytype",
-      "dataField": "keytype",
-      "width": 100
-    },
-    {
-      "text": "pubdate",
-      "dataField": "pubdate",
-      "width": 100
-    },
-    {
-      "text": "reversed",
-      "dataField": "reversed",
-      "width": 100
-    },
-    {
-      "text": "start",
-      "dataField": "start",
-      "width": 100
-    },
-    {
-      "text": "high",
-      "dataField": "high",
-      "width": 100
-    },
-    {
-      "text": "low",
-      "dataField": "low",
-      "width": 100
-    },
-    {
-      "text": "max",
-      "dataField": "max",
-      "width": 100
-    },
-    {
-      "text": "min",
-      "dataField": "min",
-      "width": 100
-    },
-    {
-      "text": "optimum",
-      "dataField": "optimum",
-      "width": 100
-    },
-    {
-      "text": "sizes",
-      "dataField": "sizes",
-      "width": 100
-    },
-    {
-      "text": "poster",
-      "dataField": "poster",
-      "width": 100
-    },
-    {
-      "text": "async",
-      "dataField": "async",
-      "width": 100
-    },
-    {
-      "text": "defer",
-      "dataField": "defer",
-      "width": 100
-    },
-    {
-      "text": "language",
-      "dataField": "language",
       "width": 100
     },
     {
@@ -563,28 +539,113 @@
       "width": 100
     },
     {
-      "text": "accept",
-      "dataField": "accept",
+      "text": "xmlns",
+      "dataField": "xmlns",
       "width": 100
     },
     {
-      "text": "list",
-      "dataField": "list",
+      "text": "noshade",
+      "dataField": "noshade",
       "width": 100
     },
     {
-      "text": "multiple",
-      "dataField": "multiple",
+      "text": "cols",
+      "dataField": "cols",
       "width": 100
     },
     {
-      "text": "pattern",
-      "dataField": "pattern",
+      "text": "rows",
+      "dataField": "rows",
       "width": 100
     },
     {
-      "text": "step",
-      "dataField": "step",
+      "text": "wrap",
+      "dataField": "wrap",
+      "width": 100
+    },
+    {
+      "text": "content",
+      "dataField": "content",
+      "width": 100
+    },
+    {
+      "text": "http-equiv",
+      "dataField": "http-equiv",
+      "width": 100
+    },
+    {
+      "text": "scheme",
+      "dataField": "scheme",
+      "width": 100
+    },
+    {
+      "text": "default",
+      "dataField": "default",
+      "width": 100
+    },
+    {
+      "text": "kind",
+      "dataField": "kind",
+      "width": 100
+    },
+    {
+      "text": "srclang",
+      "dataField": "srclang",
+      "width": 100
+    },
+    {
+      "text": "reversed",
+      "dataField": "reversed",
+      "width": 100
+    },
+    {
+      "text": "start",
+      "dataField": "start",
+      "width": 100
+    },
+    {
+      "text": "archive",
+      "dataField": "archive",
+      "width": 100
+    },
+    {
+      "text": "classid",
+      "dataField": "classid",
+      "width": 100
+    },
+    {
+      "text": "codebase",
+      "dataField": "codebase",
+      "width": 100
+    },
+    {
+      "text": "codetype",
+      "dataField": "codetype",
+      "width": 100
+    },
+    {
+      "text": "data",
+      "dataField": "data",
+      "width": 100
+    },
+    {
+      "text": "declare",
+      "dataField": "declare",
+      "width": 100
+    },
+    {
+      "text": "async",
+      "dataField": "async",
+      "width": 100
+    },
+    {
+      "text": "defer",
+      "dataField": "defer",
+      "width": 100
+    },
+    {
+      "text": "language",
+      "dataField": "language",
       "width": 100
     },
     {
@@ -683,79 +744,19 @@
       "type": "string"
     },
     {
-      "name": "height",
+      "name": "text",
       "type": "string"
     },
     {
-      "name": "width",
+      "name": "charset",
       "type": "string"
     },
     {
-      "name": "archive",
+      "name": "coords",
       "type": "string"
     },
     {
-      "name": "classid",
-      "type": "string"
-    },
-    {
-      "name": "codebase",
-      "type": "string"
-    },
-    {
-      "name": "codetype",
-      "type": "string"
-    },
-    {
-      "name": "data",
-      "type": "string"
-    },
-    {
-      "name": "declare",
-      "type": "string"
-    },
-    {
-      "name": "form",
-      "type": "string"
-    },
-    {
-      "name": "autofocus",
-      "type": "string"
-    },
-    {
-      "name": "cols",
-      "type": "string"
-    },
-    {
-      "name": "disabled",
-      "type": "string"
-    },
-    {
-      "name": "maxlength",
-      "type": "string"
-    },
-    {
-      "name": "name",
-      "type": "string"
-    },
-    {
-      "name": "placeholder",
-      "type": "string"
-    },
-    {
-      "name": "readonly",
-      "type": "string"
-    },
-    {
-      "name": "required",
-      "type": "string"
-    },
-    {
-      "name": "rows",
-      "type": "string"
-    },
-    {
-      "name": "wrap",
+      "name": "download",
       "type": "string"
     },
     {
@@ -763,75 +764,35 @@
       "type": "string"
     },
     {
+      "name": "hreflang",
+      "type": "string"
+    },
+    {
+      "name": "media",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "rel",
+      "type": "string"
+    },
+    {
+      "name": "rev",
+      "type": "string"
+    },
+    {
+      "name": "shape",
+      "type": "string"
+    },
+    {
       "name": "target",
       "type": "string"
     },
     {
-      "name": "autoplay",
-      "type": "string"
-    },
-    {
-      "name": "controls",
-      "type": "string"
-    },
-    {
-      "name": "loop",
-      "type": "string"
-    },
-    {
-      "name": "muted",
-      "type": "string"
-    },
-    {
-      "name": "preload",
-      "type": "string"
-    },
-    {
-      "name": "src",
-      "type": "string"
-    },
-    {
-      "name": "accept-charset",
-      "type": "string"
-    },
-    {
-      "name": "action",
-      "type": "string"
-    },
-    {
-      "name": "autocomplete",
-      "type": "string"
-    },
-    {
-      "name": "enctype",
-      "type": "string"
-    },
-    {
-      "name": "method",
-      "type": "string"
-    },
-    {
-      "name": "novalidate",
-      "type": "string"
-    },
-    {
-      "name": "align",
-      "type": "string"
-    },
-    {
-      "name": "char",
-      "type": "string"
-    },
-    {
-      "name": "charoff",
-      "type": "string"
-    },
-    {
-      "name": "span",
-      "type": "string"
-    },
-    {
-      "name": "valign",
+      "name": "type",
       "type": "string"
     },
     {
@@ -847,107 +808,19 @@
       "type": "string"
     },
     {
-      "name": "alt",
+      "name": "label",
       "type": "string"
     },
     {
-      "name": "coords",
+      "name": "for",
       "type": "string"
     },
     {
-      "name": "nohref",
+      "name": "form",
       "type": "string"
     },
     {
-      "name": "shape",
-      "type": "string"
-    },
-    {
-      "name": "cite",
-      "type": "string"
-    },
-    {
-      "name": "charset",
-      "type": "string"
-    },
-    {
-      "name": "download",
-      "type": "string"
-    },
-    {
-      "name": "hreflang",
-      "type": "string"
-    },
-    {
-      "name": "media",
-      "type": "string"
-    },
-    {
-      "name": "rel",
-      "type": "string"
-    },
-    {
-      "name": "rev",
-      "type": "string"
-    },
-    {
-      "name": "type",
-      "type": "string"
-    },
-    {
-      "name": "alink",
-      "type": "string"
-    },
-    {
-      "name": "background",
-      "type": "string"
-    },
-    {
-      "name": "bgcolor",
-      "type": "string"
-    },
-    {
-      "name": "link",
-      "type": "string"
-    },
-    {
-      "name": "text",
-      "type": "string"
-    },
-    {
-      "name": "vlink",
-      "type": "string"
-    },
-    {
-      "name": "datetime",
-      "type": "string"
-    },
-    {
-      "name": "open",
-      "type": "string"
-    },
-    {
-      "name": "xmlns",
-      "type": "string"
-    },
-    {
-      "name": "formaction",
-      "type": "string"
-    },
-    {
-      "name": "formenctype",
-      "type": "string"
-    },
-    {
-      "name": "formmethod",
-      "type": "string"
-    },
-    {
-      "name": "formnovalidate",
-      "type": "string"
-    },
-    {
-      "name": "formtarget",
+      "name": "max",
       "type": "string"
     },
     {
@@ -955,7 +828,35 @@
       "type": "string"
     },
     {
+      "name": "high",
+      "type": "string"
+    },
+    {
+      "name": "low",
+      "type": "string"
+    },
+    {
+      "name": "min",
+      "type": "string"
+    },
+    {
+      "name": "optimum",
+      "type": "string"
+    },
+    {
+      "name": "align",
+      "type": "string"
+    },
+    {
+      "name": "disabled",
+      "type": "string"
+    },
+    {
       "name": "frameborder",
+      "type": "string"
+    },
+    {
+      "name": "height",
       "type": "string"
     },
     {
@@ -983,7 +884,31 @@
       "type": "string"
     },
     {
+      "name": "src",
+      "type": "string"
+    },
+    {
       "name": "srcdoc",
+      "type": "string"
+    },
+    {
+      "name": "width",
+      "type": "string"
+    },
+    {
+      "name": "cite",
+      "type": "string"
+    },
+    {
+      "name": "alt",
+      "type": "string"
+    },
+    {
+      "name": "nohref",
+      "type": "string"
+    },
+    {
+      "name": "sizes",
       "type": "string"
     },
     {
@@ -991,11 +916,171 @@
       "type": "string"
     },
     {
-      "name": "label",
+      "name": "open",
+      "type": "string"
+    },
+    {
+      "name": "autoplay",
+      "type": "string"
+    },
+    {
+      "name": "controls",
+      "type": "string"
+    },
+    {
+      "name": "loop",
+      "type": "string"
+    },
+    {
+      "name": "muted",
+      "type": "string"
+    },
+    {
+      "name": "preload",
+      "type": "string"
+    },
+    {
+      "name": "accept-charset",
+      "type": "string"
+    },
+    {
+      "name": "action",
+      "type": "string"
+    },
+    {
+      "name": "autocomplete",
+      "type": "string"
+    },
+    {
+      "name": "enctype",
+      "type": "string"
+    },
+    {
+      "name": "method",
+      "type": "string"
+    },
+    {
+      "name": "novalidate",
+      "type": "string"
+    },
+    {
+      "name": "compact",
+      "type": "string"
+    },
+    {
+      "name": "accept",
+      "type": "string"
+    },
+    {
+      "name": "autofocus",
+      "type": "string"
+    },
+    {
+      "name": "checked",
+      "type": "string"
+    },
+    {
+      "name": "formaction",
+      "type": "string"
+    },
+    {
+      "name": "formenctype",
+      "type": "string"
+    },
+    {
+      "name": "formmethod",
+      "type": "string"
+    },
+    {
+      "name": "formnovalidate",
+      "type": "string"
+    },
+    {
+      "name": "formtarget",
+      "type": "string"
+    },
+    {
+      "name": "list",
+      "type": "string"
+    },
+    {
+      "name": "maxlength",
+      "type": "string"
+    },
+    {
+      "name": "multiple",
+      "type": "string"
+    },
+    {
+      "name": "pattern",
+      "type": "string"
+    },
+    {
+      "name": "placeholder",
+      "type": "string"
+    },
+    {
+      "name": "readonly",
+      "type": "string"
+    },
+    {
+      "name": "required",
+      "type": "string"
+    },
+    {
+      "name": "step",
+      "type": "string"
+    },
+    {
+      "name": "bgcolor",
+      "type": "string"
+    },
+    {
+      "name": "char",
+      "type": "string"
+    },
+    {
+      "name": "charoff",
+      "type": "string"
+    },
+    {
+      "name": "valign",
+      "type": "string"
+    },
+    {
+      "name": "keytype",
+      "type": "string"
+    },
+    {
+      "name": "span",
+      "type": "string"
+    },
+    {
+      "name": "poster",
       "type": "string"
     },
     {
       "name": "border",
+      "type": "string"
+    },
+    {
+      "name": "cellpadding",
+      "type": "string"
+    },
+    {
+      "name": "cellspacing",
+      "type": "string"
+    },
+    {
+      "name": "frame",
+      "type": "string"
+    },
+    {
+      "name": "rules",
+      "type": "string"
+    },
+    {
+      "name": "summary",
       "type": "string"
     },
     {
@@ -1015,11 +1100,31 @@
       "type": "string"
     },
     {
-      "name": "noshade",
+      "name": "alink",
       "type": "string"
     },
     {
-      "name": "checked",
+      "name": "background",
+      "type": "string"
+    },
+    {
+      "name": "link",
+      "type": "string"
+    },
+    {
+      "name": "text",
+      "type": "string"
+    },
+    {
+      "name": "vlink",
+      "type": "string"
+    },
+    {
+      "name": "datetime",
+      "type": "string"
+    },
+    {
+      "name": "pubdate",
       "type": "string"
     },
     {
@@ -1028,70 +1133,6 @@
     },
     {
       "name": "radiogroup",
-      "type": "string"
-    },
-    {
-      "name": "compact",
-      "type": "string"
-    },
-    {
-      "name": "for",
-      "type": "string"
-    },
-    {
-      "name": "keytype",
-      "type": "string"
-    },
-    {
-      "name": "pubdate",
-      "type": "string"
-    },
-    {
-      "name": "reversed",
-      "type": "string"
-    },
-    {
-      "name": "start",
-      "type": "string"
-    },
-    {
-      "name": "high",
-      "type": "string"
-    },
-    {
-      "name": "low",
-      "type": "string"
-    },
-    {
-      "name": "max",
-      "type": "string"
-    },
-    {
-      "name": "min",
-      "type": "string"
-    },
-    {
-      "name": "optimum",
-      "type": "string"
-    },
-    {
-      "name": "sizes",
-      "type": "string"
-    },
-    {
-      "name": "poster",
-      "type": "string"
-    },
-    {
-      "name": "async",
-      "type": "string"
-    },
-    {
-      "name": "defer",
-      "type": "string"
-    },
-    {
-      "name": "language",
       "type": "string"
     },
     {
@@ -1123,35 +1164,55 @@
       "type": "string"
     },
     {
-      "name": "accept",
+      "name": "xmlns",
       "type": "string"
     },
     {
-      "name": "list",
+      "name": "noshade",
       "type": "string"
     },
     {
-      "name": "multiple",
+      "name": "cols",
       "type": "string"
     },
     {
-      "name": "pattern",
+      "name": "rows",
       "type": "string"
     },
     {
-      "name": "step",
+      "name": "wrap",
       "type": "string"
     },
     {
-      "name": "selected",
+      "name": "content",
       "type": "string"
     },
     {
-      "name": "height",
+      "name": "http-equiv",
       "type": "string"
     },
     {
-      "name": "width",
+      "name": "scheme",
+      "type": "string"
+    },
+    {
+      "name": "default",
+      "type": "string"
+    },
+    {
+      "name": "kind",
+      "type": "string"
+    },
+    {
+      "name": "srclang",
+      "type": "string"
+    },
+    {
+      "name": "reversed",
+      "type": "string"
+    },
+    {
+      "name": "start",
       "type": "string"
     },
     {
@@ -1179,23 +1240,43 @@
       "type": "string"
     },
     {
-      "name": "form",
+      "name": "async",
       "type": "string"
     },
     {
-      "name": "autofocus",
+      "name": "defer",
       "type": "string"
     },
     {
-      "name": "cols",
+      "name": "language",
       "type": "string"
     },
     {
-      "name": "disabled",
+      "name": "selected",
       "type": "string"
     },
     {
-      "name": "maxlength",
+      "name": "charset",
+      "type": "string"
+    },
+    {
+      "name": "coords",
+      "type": "string"
+    },
+    {
+      "name": "download",
+      "type": "string"
+    },
+    {
+      "name": "href",
+      "type": "string"
+    },
+    {
+      "name": "hreflang",
+      "type": "string"
+    },
+    {
+      "name": "media",
       "type": "string"
     },
     {
@@ -1203,12 +1284,65 @@
       "type": "string"
     },
     {
-      "name": "placeholder",
+      "name": "rel",
       "type": "string"
     },
     {
-      "name": "readonly",
+      "name": "rev",
+      "type": "string"
+    },
+    {
+      "name": "shape",
+      "type": "string"
+    },
+    {
+      "name": "target",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "color",
+      "type": "string"
+    },
+    {
+      "name": "face",
+      "type": "string"
+    },
+    {
+      "name": "size",
+      "type": "string"
+    },
+    {
+      "name": "label",
       "type": "string"
     }
+  ],
+  "inline":[
+    "a",
+    "abbr",
+    "acronym",
+    "b",
+    "bdo",
+    "br",
+    "big",
+    "cite",
+    "code",
+    "dfn",
+    "em",
+    "i",
+    "img",
+    "input",
+    "samp",
+    "select",
+    "small",
+    "strong",
+    "sub",
+    "sup",
+    "textarea",
+    "tt",
+    "var"
   ]
 }

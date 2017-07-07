@@ -61,7 +61,7 @@ var server = http.createServer(function (request, response) {
                 });
                 request.on('data', function (chunk) {
                     post += chunk;
-                    createHtml(JSON.parse(post),'<div id="main"></div>');
+                    createHtml(JSON.parse(post));
                 });
                 request.on('end', function () {
                     // 解析参数

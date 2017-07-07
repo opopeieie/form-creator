@@ -1,0 +1,176 @@
+[
+  {
+    "pageName": "page1",
+    "ploy":"form",
+    "headline": [
+      {
+        "ploy":"headline",
+        "text":[
+          {
+            "label":"个人资料",
+            "type":"text"
+          }
+        ],
+        "group": [
+          {
+            "ploy": "general",
+            "text": [
+              {
+                "label": "中文姓名",
+                "type": "text",
+                "tagName":"input"
+              },
+              {
+                "label": "英文/拼音姓名",
+                "type": "text",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "曾用名/别名",
+                "type": "text",
+                "tagName":"input"
+              },
+              {
+                "label": "身份证号码",
+                "type": "number",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "证件有效期至",
+                "type": "date",
+                "tagName":"input"
+              },
+              {
+                "label": "客户生日",
+                "type": "date",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "客户出生国家",
+                "type": "text",
+                "tagName":"input"
+              },
+              {
+                "label": "国籍",
+                "type": "text",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "多重国籍",
+                "type": "text",
+                "tagName":"input"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pageName": "page1",
+    "ploy":"form",
+    "headline": [
+      {
+        "ploy":"headline",
+        "text":[
+          {
+            "label":"个人资料",
+            "type":"text"
+          }
+        ],
+        "group": [
+          {
+            "ploy": "general",
+            "text": [
+              {
+                "label": "中文姓名",
+                "type": "text",
+                "tagName":"input"
+              },
+              {
+                "label": "英文/拼音姓名",
+                "type": "text",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "曾用名/别名",
+                "type": "text",
+                "tagName":"input"
+              },
+              {
+                "label": "身份证号码",
+                "type": "number",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "证件有效期至",
+                "type": "date",
+                "tagName":"input"
+              },
+              {
+                "label": "客户生日",
+                "type": "date",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "客户出生国家",
+                "type": "text",
+                "tagName":"input"
+              },
+              {
+                "label": "国籍",
+                "type": "text",
+                "tagName":"input"
+              }
+            ]
+          },
+          {
+            "ploy":"general",
+            "text":[
+              {
+                "label": "多重国籍",
+                "type": "text",
+                "tagName":"input"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

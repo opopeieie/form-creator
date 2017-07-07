@@ -1,0 +1,119 @@
+[
+  {
+    "pageName": "1",
+    "Headline": [
+      {
+        "form": [
+          {
+            "ordinary": {
+              "labelSup":false,
+              "group": [
+                {
+                  "labelSup": false,
+                  "text": [
+                    "中文姓名",
+                    "英文/拼音姓名"
+                  ],
+                  "line": 2
+                },
+                {
+                  "labelSup": false,
+                  "text": [
+                    "曾用名/别名",
+                    "身份证号码"
+                  ],
+                  "line": 2
+                },
+                {
+                  "labelSup": false,
+                  "text": [
+                    "证件有效期至",
+                    "客户生日"
+                  ],
+                  "line": 2
+                },
+                {
+                  "labelSup": false,
+                  "text": [
+                    "客户出生国家",
+                    "国籍"
+                  ],
+                  "line": 2
+                },
+                {
+                  "labelSup": false,
+                  "text": [
+                    "多重国籍"
+                  ],
+                  "line": 1
+                }
+              ]
+            }
+          },
+          {
+            "special": [
+            ]
+          }
+        ]
+      },
+      {
+        "form": [
+          {
+            "2address": {
+              "labelSup": true,
+              "group": [
+                {
+                  "text":[
+                    "省",
+                    "市",
+                    "街/路"
+                  ],
+                  "line": 1
+                },
+                {
+                  "text":[
+                    "省",
+                    "市",
+                    "街/路"
+                  ],
+                  "line": 1
+                },
+                {
+                  "text":[
+                    "省",
+                    "市",
+                    "街/路"
+                  ],
+                  "line": 1
+                }
+              ]
+            },
+            "ordinary":{
+              "labelSup":false,
+              "group":[
+                {
+                  "labelSup":true,
+                  "text":[
+                    "居住开始时间（小于三年）"
+                  ],
+                  "line": 1
+                }
+              ]
+            },
+            "3Phone":{
+              "labelSup":false,
+              "group":[
+                {
+                  "labelSup":false,
+                  "text":[
+
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -13,7 +13,7 @@ $(document).ready(function () {
             dataFields: data.dataFields,
             hierarchy:
             {
-                root: 'disabled'
+                root: 'children'
             },
             id: 'uuid'
         };
@@ -32,9 +32,24 @@ $(document).ready(function () {
                 },
                 columns: data.columns
             });
+
+        $(document).on('click',function(){
+            $("#treeGrid").jqxTreeGrid('clearSelection');
+        });
+
+        $('.wrapper').on('click',function(){
+            event.stopPropagation();
+        })
+
+        $('#addModal').on('click',function(){
+            event.stopPropagation();
+        })
+
     },function(error){
 
     })
+
+
 
 
 
@@ -138,20 +153,29 @@ $(document).ready(function () {
         }
         try{
             for(var i = 0;i<firstLevelRows.length;i++){
-                if(firstLevelRows[i].records.length>=1){
+                if(firstLevelRows[i].hasOwnProperty('records') && firstLevelRows[i].records.length>=1){
                     for(var j = 0;j<firstLevelRows[i].records.length;j++){
                         firstLevelRows[i].records[j].parent = firstLevelRows[i].id;
                     }
                 }
             }
         }catch(e){
-            
+
         }
         $.post('/creator',JSON.stringify(firstLevelRows)).then(function(data){
             console.log(data)
         },function(error){
             console.log(error)
-        })
+        });
+
+
+        function _makeNoRecords(records){
+            for(var i = 0;i<records.length;i++){
+                if(records[i].hasOwnProperty('records') && records[i].records.length>=1){
+                    _makeNoRecords(firstLevelRows[i].records);
+                }
+            }
+        }
     };
     /**
      * 生成html

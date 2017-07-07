@@ -69,10 +69,12 @@ download('http://www.w3school.com.cn/tags/html_ref_standardattributes.asp', func
             columns: [
                 {text: 'tagName', dataField: 'tagName', minWidth: 100, width: 200},
                 {text: 'labelName', dataField: 'labelName', minWidth: 100, width: 200},
+                {text: 'text', dataField: 'text', minWidth: 100, width: 200},
             ],
             dataFields: [
                 {name: 'tagName', type: 'string'},
-                {name: 'labelName', type: 'string'}
+                {name: 'labelName', type: 'string'},
+                {name: 'text', type: 'string'}
             ]
         };
         for (var i = 0; i < globalJson.sub.length; i++) {
@@ -87,9 +89,34 @@ download('http://www.w3school.com.cn/tags/html_ref_standardattributes.asp', func
         for (var l = 0; l < globalJson.global.length; l++) {
             obj.dataFields.push({name: globalJson.sub[l], type: 'string'})
         }
+        obj.inline = [
+            "a",
+            "abbr",
+            "acronym",
+            "b",
+            "bdo",
+            "br",
+            "big",
+            "cite",
+            "code",
+            "dfn",
+            "em",
+            "i",
+            "img",
+            "input",
+            "samp",
+            "select",
+            "small",
+            "strong",
+            "sub",
+            "sup",
+            "textarea",
+            "tt",
+            "var"
+        ];
 
 
-        fs.writeFileSync('C:\\Users\\dell\\Desktop\\form-creator\\global.json', JSON.stringify(obj));
+        fs.writeFileSync('C:\\Users\\Oscar.Hogan-PC\\Desktop\\form-creator\\json\\global.json', JSON.stringify(obj));
     }, 5000);
 
 });
